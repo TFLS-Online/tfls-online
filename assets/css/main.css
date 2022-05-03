@@ -283,7 +283,6 @@ p {
 }
 
 p.content {
-    text-indent: 2em;
     -moz-columns: 20em 2;
     -webkit-columns: 20em 2;
     -ms-columns: 20em 2;
@@ -293,6 +292,10 @@ p.content {
     -ms-column-gap: 2em;
     column-gap: 2em;
     text-align: justify;
+}
+
+.content {
+    text-indent: 2em;
 }
 
 h1,
