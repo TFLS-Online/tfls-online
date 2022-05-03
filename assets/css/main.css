@@ -294,6 +294,10 @@ p.content {
     text-align: justify;
 }
 
+header {
+    text-indent: 0em !important;
+}
+
 .content {
     text-indent: 2em;
 }
