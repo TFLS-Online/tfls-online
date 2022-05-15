@@ -72,15 +72,35 @@
             <section id="stream" class="main special">
                 <div class="spotlight">
                     <div class="content">
+                        <style>
+                            .icontainer {
+                                position: relative;
+                                overflow:hidden;
+                                width:100%;
+                                max-width: 550px;
+                                padding-top:56.25%
+                            }
+                            
+                            .responsive-iframe {
+                                position: absolute;
+                                top:0;
+                                left:0;
+                                bottom:0;
+                                right:0;
+                                width:100%;
+                                height:100%
+                            }
+                        </style>
                         <header class="major">
                             <h2>云上小外直播</h2>
                         </header>
-                        <iframe src="https://owncast.dragon-fly.club/embed/video" title="669电视台" height="350px"
-                            width="550px" referrerpolicy="origin" scrolling="no" allowfullscreen>
-                        </iframe>
+                        <div class='icontainer'>
+                            <iframe src="https://owncast.dragon-fly.club/embed/video" title="669电视台" class="responsive-iframe" referrerpolicy="origin" scrolling="no" allowfullscreen></iframe>
+                        </div>
                         <br>
-                        <iframe src="https://owncast.dragon-fly.club/embed/chat/readwrite" title="669电视台" height="350px"
-                            width="550px" referrerpolicy="origin" scrolling="no" allowfullscreen=""></iframe>
+                        <div class="icontainer">
+                            <iframe src="https://owncast.dragon-fly.club/embed/chat/readwrite" title="669电视台" class="responsive-iframe" referrerpolicy="origin" scrolling="no" allowfullscreen=""></iframe>
+                        </div>
                         <ul class="actions" style="text-indent: 0px !important; align-items: center; justify-content: center;">
                             <li><a href="https://owncast.dragon-fly.club" class="button" target="_blank">进入直播</a></li>
                         </ul>
